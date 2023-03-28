@@ -96,7 +96,7 @@ class Loader extends PluginBase implements Listener
 
         $entity->kill();
         $reward = $this::getItemReward($this->getConfig()->get("items"));
-        if ($reward !== null && $damager->getInventory()->canAddItem($reward)) {
+        if ($reward !== null) {
             $pos = $entity->getPosition();
             $damager->getWorld()->dropItem(new Vector3($pos->getX(), $pos->getY(), $pos->getZ()), $reward);
             $playerMessage = str_replace("%reward", $reward->getName(), $this->getConfig()->get("player.getreward.message"));
