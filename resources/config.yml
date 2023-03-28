@@ -1,0 +1,12 @@
+# %reward = Reward Name
+player.getreward.message: "&aYou got &e%reward"
+
+# items
+# Item_Name: chance
+items:
+  Iron_Ingot: 60%
+  Gold_Ingot: 50
+  Diamond_Ingot: 30
+
+disable_worlds:
+- world1

@@ -1,0 +1,7 @@
+name: KillJackpot
+version: 1.0.0
+api: 4.0.0
+main: dhnnz\KillJackpot\Loader
+src-namespace-prefix: dhnnz\KillJackpot
+author: dhnnz
+website: https://github.com/dhnnz/KillJackpot
