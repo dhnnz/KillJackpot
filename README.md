@@ -9,7 +9,7 @@
 Example usage:
 
 ```yaml
-player.getreward.message: "&aKamu mendapatkan &e%reward"
+player.getreward.message: "&aYou got &e%reward"
 ```
 # items
 A list of reward items and their chance of appearing. The item name must be spelled correctly and match the in-game name of the item.
